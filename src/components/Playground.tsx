@@ -92,7 +92,7 @@ const Playground = ({ grid_size }: PlaygroundProps) => {
                 {
                     arr.map((num, index) =>
                         <div
-                            className={`flex justify-center items-center tracking-widest aspect-square rounded-lg font-semibold cursor-pointer select-none text-lg dark:text-gray-800
+                            className={`flex justify-center items-center tracking-widest aspect-square rounded-lg font-semibold cursor-pointer select-none md:text-lg dark:text-gray-800
                                 ${won ?
                                     "bg-green-600 text-white dark:text-white"
                                     : num != totalBlocks ?
